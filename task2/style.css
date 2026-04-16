@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+button, select {
+    padding: 8px;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}

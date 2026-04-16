@@ -1,0 +1,24 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: white;
+    padding: 30px;
+    width: 300px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.highlight {
+    border: 2px solid blue;
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: #4a86cf;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Dashboard</h1>
+
+<select id="deptFilter">
+    <option value="">All Departments</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+</select>
+
+<button onclick="sortName()">Sort by Name</button>
+<button onclick="sortDOB()">Sort by DOB</button>
+
+<h3 id="countSection"></h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Department</th>
+            <th>DOB</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

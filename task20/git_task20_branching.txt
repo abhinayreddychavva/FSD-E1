@@ -1,0 +1,88 @@
+TASK 20: GIT BRANCHING, MERGING, REBASING & CONFLICT RESOLUTION
+
+--------------------------------
+1. Create a New Feature Branch
+--------------------------------
+git checkout -b feature-login
+
+# Verify branch
+git branch
+
+--------------------------------
+2. Work on Feature Branch
+--------------------------------
+# Make changes in files
+git add .
+git commit -m "Added login feature"
+
+--------------------------------
+3. Switch to Main Branch
+--------------------------------
+git checkout main
+
+--------------------------------
+4. Merge Feature Branch into Main
+--------------------------------
+git merge feature-login
+
+--------------------------------
+5. Create Another Feature Branch
+--------------------------------
+git checkout -b feature-update
+
+# Modify same file (to create conflict later)
+git add .
+git commit -m "Updated same file differently"
+
+--------------------------------
+6. Switch Back to Main and Modify Same File
+--------------------------------
+git checkout main
+
+# Edit same file manually
+git add .
+git commit -m "Main branch changes on same file"
+
+--------------------------------
+7. Merge to Create Conflict
+--------------------------------
+git merge feature-update
+
+# Conflict will appear in file like:
+# <<<<<<< HEAD
+# code from main
+# =======
+# code from feature branch
+# >>>>>>> feature-update
+
+--------------------------------
+8. Resolve Conflict
+--------------------------------
+# Open file and manually fix conflict
+# Remove markers <<<<<<< ======= >>>>>>>
+
+git add .
+git commit -m "Resolved merge conflict"
+
+--------------------------------
+9. Rebase Example
+--------------------------------
+git checkout feature-login
+git rebase main
+
+# If conflict occurs:
+# Fix file → git add . → git rebase --continue
+
+--------------------------------
+10. Push to Remote Repository
+--------------------------------
+git push origin main
+git push origin feature-login
+
+--------------------------------
+11. Delete Feature Branch (Optional)
+--------------------------------
+git branch -d feature-login
+
+--------------------------------
+END OF TASK 20 COMMANDS

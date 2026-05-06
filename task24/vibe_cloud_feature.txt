@@ -1,0 +1,102 @@
+TASK: VIBE CODING FOR CLOUD-BASED FEATURE (PART)
+
+1. OBJECTIVE
+Build a cloud-based REST API using Generative AI with iterative prompt engineering.
+
+--------------------------------------------------
+2. ITERATION 1 (BASIC PROMPT)
+--------------------------------------------------
+Prompt:
+"Generate a Spring Boot REST API for user management."
+
+Output:
+Basic controller with minimal functionality.
+
+Issues:
+- No validation
+- No layered architecture
+- Not production-ready
+
+--------------------------------------------------
+3. ITERATION 2 (REFINED PROMPT)
+--------------------------------------------------
+Prompt:
+"Generate a Spring Boot REST API with Controller, Service, Repository layers, using JPA and MySQL."
+
+Output:
+- Structured code (MVC)
+- CRUD operations
+- Better organization
+
+Improvements:
+- Scalable architecture
+- Clean separation of concerns
+
+--------------------------------------------------
+4. ITERATION 3 (ADVANCED PROMPT)
+--------------------------------------------------
+Prompt:
+"Generate a secure Spring Boot REST API with JWT authentication, validation, exception handling, and MySQL integration."
+
+Output:
+- Authentication added
+- Input validation
+- Error handling
+
+Improvements:
+- Production-ready
+- Secure design
+
+--------------------------------------------------
+5. CLOUD DEPLOYMENT PROMPTS
+--------------------------------------------------
+Prompt:
+"Provide steps to deploy Spring Boot app on AWS EC2."
+
+Output:
+- Launch EC2
+- Install Java
+- Run JAR file
+
+Refinement:
+"Include security groups, key pairs, and deployment commands."
+
+Improved Output:
+- Detailed deployment
+- Secure configuration
+
+--------------------------------------------------
+6. SECURITY CONFIGURATION PROMPTS
+--------------------------------------------------
+Prompt:
+"Add security configuration using Spring Security."
+
+Refinement:
+"Implement JWT authentication with role-based access control."
+
+Output:
+- Token-based security
+- Role-based authorization
+
+--------------------------------------------------
+7. EVALUATION
+--------------------------------------------------
+Accuracy:
+Improved with better prompts
+
+Scalability:
+Enhanced with layered architecture
+
+Usability:
+Better with validation and security
+
+Efficiency:
+Reduced development time significantly
+
+--------------------------------------------------
+8. CONCLUSION
+--------------------------------------------------
+Prompt engineering significantly improves AI-generated code quality.
+Iterative prompting transforms basic code into production-ready solutions.
+
+END OF FILE

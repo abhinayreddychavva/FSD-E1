@@ -1,0 +1,80 @@
+TASK 22: CLOUD SERVICE PROVIDERS COMPARISON
+
+Major Cloud Providers:
+- Amazon Web Services (AWS)
+- Google Cloud Platform (GCP)
+- Microsoft Azure
+
+--------------------------------------------------
+1. COMPUTE SERVICES
+--------------------------------------------------
+AWS: EC2 (Elastic Compute Cloud)
+GCP: Compute Engine
+Azure: Virtual Machines
+
+Description:
+Compute services provide virtual servers to run applications, APIs, and backend systems.
+
+--------------------------------------------------
+2. STORAGE SERVICES
+--------------------------------------------------
+AWS: S3 (Simple Storage Service)
+GCP: Cloud Storage
+Azure: Blob Storage
+
+Description:
+Storage services are used to store files, images, videos, and backups.
+
+--------------------------------------------------
+3. DATABASE SERVICES
+--------------------------------------------------
+AWS: RDS, DynamoDB
+GCP: Cloud SQL, Firestore
+Azure: Azure SQL Database, Cosmos DB
+
+Description:
+Database services handle structured and unstructured data.
+
+--------------------------------------------------
+4. NETWORKING SERVICES
+--------------------------------------------------
+AWS: VPC (Virtual Private Cloud)
+GCP: Virtual Private Cloud
+Azure: Virtual Network
+
+Description:
+Networking services provide secure communication between resources.
+
+--------------------------------------------------
+5. PRICING MODEL (PAY-AS-YOU-USE)
+--------------------------------------------------
+All providers follow a pay-as-you-go model.
+
+Features:
+- Pay only for resources used
+- No upfront cost
+- Scalable pricing
+
+Examples:
+- Pay per hour/second for compute
+- Pay per GB for storage
+- Pay for data transfer usage
+
+--------------------------------------------------
+COMPARISON SUMMARY TABLE
+--------------------------------------------------
+Feature        AWS                 GCP                 Azure
+--------------------------------------------------------------
+Compute        EC2                 Compute Engine      Virtual Machines
+Storage        S3                  Cloud Storage       Blob Storage
+Database       RDS, DynamoDB       Cloud SQL           SQL DB, Cosmos DB
+Networking     VPC                 VPC                 Virtual Network
+Pricing        Pay-as-you-use      Pay-as-you-use      Pay-as-you-use
+
+--------------------------------------------------
+CONCLUSION
+--------------------------------------------------
+AWS, GCP, and Azure provide similar core services with slight differences in naming and implementation.
+All platforms follow a pay-as-you-use pricing model, making cloud computing cost-efficient and scalable.
+
+END OF FILE

@@ -1,0 +1,59 @@
+TASK 19: GIT COMMANDS GUIDE
+
+1. Initialize a Git Repository
+--------------------------------
+cd your-project-folder
+git init
+
+2. Check Status
+--------------------------------
+git status
+
+3. Add Files (Staging)
+--------------------------------
+git add .
+# OR add specific file
+git add filename.txt
+
+4. Commit Changes
+--------------------------------
+git commit -m "Initial commit"
+
+5. View Commit History
+--------------------------------
+git log
+
+6. Create a New Branch
+--------------------------------
+git branch feature-branch
+
+7. Switch Branch
+--------------------------------
+git checkout feature-branch
+
+8. Merge Branch
+--------------------------------
+git checkout main
+git merge feature-branch
+
+9. Add Remote Repository (GitHub)
+--------------------------------
+git remote add origin https://github.com/your-username/your-repo.git
+
+10. Push Code to GitHub
+--------------------------------
+git push -u origin main
+
+11. Pull Latest Changes
+--------------------------------
+git pull origin main
+
+12. Check Remote
+--------------------------------
+git remote -v
+
+13. Clone Repository
+--------------------------------
+git clone https://github.com/your-username/your-repo.git
+
+END OF COMMANDS

@@ -1,0 +1,86 @@
+TASK: VIBE CODING & PROMPT ENGINEERING
+
+1. INTRODUCTION
+Vibe Coding is the practice of generating code using AI tools through natural language prompts.
+Prompt Engineering is designing effective prompts to get accurate and useful outputs.
+
+2. TOOL USED
+- ChatGPT
+- GitHub Copilot
+
+3. USE CASES
+
+A) CODE GENERATION
+Prompt:
+Generate a Spring Boot REST API for user management with CRUD operations.
+
+Output:
+@RestController
+@RequestMapping("/users")
+public class UserController {
+    @GetMapping
+    public String getUsers() {
+        return "Users List";
+    }
+}
+
+Evaluation:
+- Fast and efficient
+- Needs validation
+
+--------------------------------------------------
+
+B) CLOUD CONFIGURATION
+Prompt:
+Create AWS CloudFormation template for EC2 instance.
+
+Output:
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+
+Evaluation:
+- Saves time
+- Needs customization
+
+--------------------------------------------------
+
+C) APPLICATION LOGIC
+Prompt:
+Write Java function to validate email.
+
+Output:
+public boolean isValidEmail(String email) {
+    return email.matches("^[A-Za-z0-9+_.-]+@(.+)$");
+}
+
+Evaluation:
+- Reusable
+- Needs refinement
+
+--------------------------------------------------
+
+4. PROMPT DESIGN TECHNIQUES
+- Be specific
+- Provide context
+- Use constraints
+- Iterate prompts
+
+--------------------------------------------------
+
+5. EVALUATION CRITERIA
+- Accuracy
+- Efficiency
+- Scalability
+- Maintainability
+- Security
+
+--------------------------------------------------
+
+6. CONCLUSION
+Generative AI improves development speed and productivity.
+However, validation is required for real-world use.
+
+END OF FILE
